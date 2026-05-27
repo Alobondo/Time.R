@@ -1,0 +1,24 @@
+Package: TimeR
+Title: Estimates Time of Concentration and Lag Time for Watersheds
+Version: 0.1.0
+Date: 2026-05-27
+Authors@R: person("Alonso", "Arriagada", email = "alonso.arriagada@usach.cl",
+                  role = c("aut", "cre"))
+Description: This package provides functions to estimate the time of concentration
+    and lag times for watersheds based on their morphometric characteristics.
+    It includes various methods for calculation and offers plotting functionalities
+    for comparative analysis.
+License:  GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    ggplot2,
+    readxl,
+    utils
+Suggests: 
+    rmarkdown,
+    knitr
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+Config/roxygen2/version: 8.0.0
