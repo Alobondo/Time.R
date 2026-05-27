@@ -1,4 +1,4 @@
-# TimeR
+# TimeR <img src="man/Figures/TimeR_logo.png" align="right" width="180px" height="195px" />
 R package for estimating and compare time of concentration and lag time of watersheds
 
 # Requirements
