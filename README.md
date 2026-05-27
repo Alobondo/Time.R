@@ -1,9 +1,9 @@
-# TimeR <img src="man/Figures/TimeR_logo.png" align="right" width="180px" height="195px" />
+# TimeR
 R package for estimating and compare time of concentration and lag time of watersheds
 
 # Requirements
 Dependencies:
-  ggplot2,readxl,utils
+  ggplot2, readxl, utils
 
 # Installation
 You can install the currently-released version of **TimeR** from CRAN with this R command:
