@@ -1,0 +1,19 @@
+#' Series of watersheds characteristics used for testing the functions of the Time.R package.
+#'
+#' A dataset containing IDs, areas, slopes, basin lengths, elevations, curve numbers, manning coefficients, and paved status for a series of watersheds.
+#'
+#' @format A data frame with 66 rows and 10 variables:
+#' \describe{
+#'   \item{ID}{watersheds IDs}
+#'   \item{Area_km2}{areas, in square kilometers}
+#'   \item{Slope_perc}{Slopes, in percentage}
+#'   \item{BasinLength_km}{Basin lengths, in kilometers}
+#'   \item{Z_max_masl}{Maximum elevations, in meters above sea level}
+#'   \item{Z_min_masl}{Minimum elevations, in meters above sea level}
+#'   \item{Z_ave_masl}{Average elevations, in meters above sea level}
+#'   \item{CurveNumber}{Curve numbers, dimensionless}
+#'   \item{ManningCoeff}{Manning coefficients, dimensionless}
+#'   \item{Paved}{Paved status, TRUE or FALSE}
+#'
+#' }
+"data"

@@ -1,11 +1,30 @@
-# Time.R
+---
+title: "Time.R"
+author: "Alonso Arriagadada M.  <alonso.arriagada@usach.cl>"
+version: "0.1.0"
+date: "2026-05-27"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Time.R}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## Time.R
 R package for estimating and compare time of concentration and lag time of watersheds
 
-# Requirements
+## Requirements
 Dependencies:
   ggplot2, readxl, utils
 
-# Installation
+## Installation
 You can install the currently-released version of **Time.R** from CRAN with this R command:
 ```
 install.packages("Time.R")
@@ -17,7 +36,7 @@ remotes::install_github("Alobondo/Time.R")
 library(Time.R)
 ```
 
-# Usage
+## Usage
 Functions | Description |
 --- | --- |
 ```Time.R_calc()``` | Apply functions to estimate the time of concentration and lag times for watersheds based on their morphometric characteristics. It includes various methods for calculation and offers plotting functionalities for comparative analysis. |
@@ -25,8 +44,8 @@ Functions | Description |
 
 ```Time.R_calc()``` works with a dataframe with columns: ID, Area_km2, Slope_perc, BasinLength_km, Z_max_masl, Z_min_masl, Z_ave_masl, CurveNumber, ManningCoeff, Paved (ID character type and Paved logical type, numeric the rest). 
 
-# Reporting bugs
+## Reporting bugs
 If you find an error in some function, want to report a typo in the documentation or submit a recommendation, you can do it [here](https://github.com/Alobondo/Time.R/issues)
 
-# Keywords
+## Keywords
 Hydrology, R package, Time of Concentration, Lag Time, Watersheds

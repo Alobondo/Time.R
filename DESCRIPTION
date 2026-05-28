@@ -1,14 +1,14 @@
-Package: TimeR
+Package: Time.R
 Title: Estimates Time of Concentration and Lag Time for Watersheds
-Version: 0.1.0
+Version: 1.0.0
 Date: 2026-05-27
 Authors@R: person("Alonso", "Arriagada", email = "alonso.arriagada@usach.cl",
                   role = c("aut", "cre"))
-Description: This package provides functions to estimate the time of concentration
+Description: Functions to estimate the time of concentration
     and lag times for watersheds based on their morphometric characteristics.
     It includes various methods for calculation and offers plotting functionalities
     for comparative analysis.
-License:  GPL-3
+License: GPL-3
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 Imports:
